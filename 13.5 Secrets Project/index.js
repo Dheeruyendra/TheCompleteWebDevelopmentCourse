@@ -22,7 +22,7 @@ app.post("/check", (req, res) => {
     if (userIsAuthorised) {
         res.sendFile(__dirname + "/public/secret.html");
     } else {
-        res.redirect("/");
+        res.redirecSt("/");
     }
 });    
 
